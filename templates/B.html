@@ -48,7 +48,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- TODO: Feel free to modify anything inside main.css -->
-    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/mainB.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -57,7 +57,7 @@
 
   <body>
     <header>
-      <h1>cact-I + cact-you = cact-us</h1>
+      <h1>cactI + cactYOU = cactUS</h1>
       <!-- Ideas: making it pretty/look real, making it look reliable,
           choosing different images, changing layout, etc. Show your creativity!
           We want to see meaningful differences -->
@@ -69,46 +69,50 @@
 
     <!-- If you add any new buttons, you need to update the javascript file, for
     corresponding button id, so that clicks of that button could be logged -->
-    <div class="content-pane">
+    <div class="grid">
       <div class="vendor-wrapper" id="mp1">
-        <img src="../static/coppercombo.png" class="vendor-photo" />
+        <img src="../static/garden-1.jpg" class="vendor-photo" />
+        <p class="p-2">$9.99</p>
         <button class="vendor-book-button btn btn-primary" type="submit" id="mp1">
           Add To Cart
         </button>
-        <span><span id="mp1-added">0</span> in cart</span>
-        <p>Stunning succulent combo, featuring 3 adolescent cacti in
-          industrial copper pots. <i>$9.99</i>
-        </p>
+        <span><br><span id="mp1-added">0</span> in cart</span>
+        <h4><br>Stunning succulent combo, featuring 4 adolescent cacti in
+          modern and minimalist white pots.
+        </h4>
       </div>
 
       <div class="vendor-wrapper" id="mp2">
         <img src="../static/geoprickly.jpg" class="vendor-photo" />
+        <p>$14.99</p>
         <button class="vendor-book-button btn btn-primary" type="submit" id="mp2">
           Add To Cart
         </button>
-        <span><span id="mp2-added">0</span> in cart</span>
-        <p>Beautiful prickly pair in modern geometric pots. <i>$14.99</i>
-        </p>
+        <span><br><span id="mp2-added">0</span> in cart</span>
+        <h4><br>Beautiful prickly pair in modern geometric pots.
+        </h4>
       </div>
 
       <div class="vendor-wrapper" id="mp3">
         <img src="../static/garden.jpg" class="vendor-photo" />
+        <p>$25.99</p>
         <button class="vendor-book-button btn btn-primary" type="submit" id="mp3">
           Add To Cart
         </button>
-        <span><span id="mp3-added">0</span> in cart</span>
-        <p>Cacti and succulent mini-garden in a congenial and rustic pot. <i>$25.99</i>
-        </p>
+        <span><br><span id="mp3-added">0</span> in cart</span>
+        <h4><br>Cacti and succulent mini-garden in a congenial and rustic pot.
+        </h4>
       </div>
 
       <div class="vendor-wrapper" id="mp4">
-        <img src="../static/garden-combo.jpg" class="vendor-photo" />
+        <img src="../static/garden-2.jpg" class="vendor-photo" />
+        <p>$34.99</p>
         <button class="vendor-book-button btn btn-primary" type="submit" id="mp4">
           Add To Cart
         </button>
-        <span><span id="mp4-added">0</span> in cart</span>
-        <p>Cacti, succulent, and garden combo in handcrafted pots. <i>$34.99</i>
-        </p>
+        <span><br><span id="mp4-added">0</span> in cart</span>
+        <h4><br>Cacti, succulent, and garden combo in handcrafted terra cotta pot.
+        </h4>
       </div>
 
       <div id="cart-wrapper">
@@ -116,7 +120,8 @@
         <span id="cart" class="fa-stack fa-2x has-badge" data-count="0">
           <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
           <i class="fa fa-shopping-cart fa-stack-2x red-cart"></i>
-        </span> CART
+          <p>CART</p>
+        </span>
       </a>
       </div>
     </div>
